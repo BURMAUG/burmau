@@ -1,0 +1,13 @@
+nav{
+  justify-content: space-around;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+nav ul li a{
+  text-decoration: none;
+}
