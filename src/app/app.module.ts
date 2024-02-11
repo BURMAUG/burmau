@@ -9,6 +9,7 @@ import {provideRouter} from "@angular/router";
 import { ResearchComponent } from './component/research/research.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatCardModule} from "@angular/material/card";
+import {MatDividerModule} from "@angular/material/divider";
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import {MatCardModule} from "@angular/material/card";
     AppRoutingModule,
     BrowserAnimationsModule,
     MatCardModule,
+    MatDividerModule,
   ],
   providers: [provideRouter(routes)],
   bootstrap: [AppComponent]
