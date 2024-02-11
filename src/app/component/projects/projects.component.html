@@ -1,7 +1,21 @@
 <p>projects works!</p>
-<ng-container >
-  {{projectList.at(0)}}
-</ng-container>
+  <mat-card *ngFor="let project of projectList">
+    <mat-card-header>
+      <mat-card-title>
+        {{project.name}}
+      </mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <mat-list dense>
+        <mat-divider></mat-divider>
+        <mat-list-item>Tech Stack: <i>{{project.tech_stack}}</i></mat-list-item>
+        <mat-divider></mat-divider>
+     </mat-list>
+    </mat-card-content>
+    <mat-card-footer>
+      <a href="{{project.link}}">{{project.name}}</a>
+    </mat-card-footer>
+  </mat-card>
 <footer>
 
 </footer>
