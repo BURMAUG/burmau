@@ -8,8 +8,8 @@ import {Project} from "./Project";
 })
 export class ProjectsComponent {
   projects = [
-    new Project("Shadow Job Web Scraper", 'Nothingham','https://github.com/BURMAUG/Shadowy',['Python', ' Slack', ' Selenium']),
-    new Project("Car Price Predictor ML",'', 'https://github.com/BURMAUG/CarPricePrediction', ['Python', ' Numpy', ' Pandas', ' Seaborn'])
+    new Project("Shadow Job Web Scraper", 'This Program uses multithreading to visit select company career sites for select opportunities that suites me. Upon finding them it send me a Slack message','https://github.com/BURMAUG/Shadowy',['Python', ' Slack', ' Selenium']),
+    new Project("Car Price Predictor ML",'Nottingham', 'https://github.com/BURMAUG/CarPricePrediction', ['Python', ' Numpy', ' Pandas', ' Seaborn'])
   ]
 
   get projectList(): Project[]{
