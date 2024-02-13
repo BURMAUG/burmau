@@ -4,3 +4,10 @@ span a{
 main{
   font-family: "Lucida Console", monospace;
 }
+.box{
+  position: absolute;
+  background-color: gray;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}

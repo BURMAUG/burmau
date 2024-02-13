@@ -1,5 +1,8 @@
 nav{
   justify-content: space-around;
+  /*margin: 5px;*/
+  padding: 17px;
+  background-color: gray;
 }
 
 nav ul{
