@@ -3,10 +3,11 @@ span a{
 }
 main{
   font-family: "Lucida Console", monospace;
+  color: whitesmoke;
 }
 .box{
   position: absolute;
-  background-color: gray;
+  /*background-color: gray;*/
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
