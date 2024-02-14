@@ -11,13 +11,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatCardModule} from "@angular/material/card";
 import {MatDividerModule} from "@angular/material/divider";
 import {MatListModule} from "@angular/material/list";
+import { ResumeComponent } from './component/resume/resume.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProjectsComponent,
     HomeComponent,
-    ResearchComponent
+    ResearchComponent,
+    ResumeComponent
   ],
   imports: [
     BrowserModule,
