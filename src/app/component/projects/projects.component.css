@@ -10,8 +10,21 @@
   padding: 9px;
 }
 
+/*.it{*/
+/*  display: flex;*/
+/*  align-items: center;*/
+/*  justify-content: center;*/
+/*}*/
+
 .link{
-  background-color: #FFD700;
+  /*display: flex;*/
+  /*align-items: center;*/
+  /*justify-content: center;*/
+
+  background-color: #8B5A2B;
+  border-radius: 3px;
+  /*width: 240px;*/
+
 }
 
 a{
