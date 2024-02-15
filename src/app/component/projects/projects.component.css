@@ -1,0 +1,20 @@
+.project{
+  background-color: rgba(131, 131, 131, 0.1);
+  padding: 20px 20px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.tech{
+  padding: 9px;
+}
+
+.link{
+  background-color: #FFD700;
+}
+
+a{
+  text-decoration: none;
+  color: whitesmoke;
+}

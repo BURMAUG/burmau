@@ -1,22 +1,20 @@
-<p>projects works!</p>
-  <mat-card class="card" *ngFor="let project of projectList">
-    <mat-card-header>
-      <mat-card-title>
-        {{project.name}}
-      </mat-card-title>
-    </mat-card-header>
-    <mat-card-content>
-      <p>{{project.summary}}</p>
-      <mat-list dense>
-        <mat-divider></mat-divider>
-        <mat-list-item>Tech Stack: <i>{{project.tech_stack}}</i></mat-list-item>
-        <mat-divider></mat-divider>
-     </mat-list>
-    </mat-card-content>
-    <mat-card-footer>
-      <a href="{{project.link}}">{{project.name}}</a>
-    </mat-card-footer>
-  </mat-card>
+<!--<p>projects works!</p>-->
+
+<div class="projects">
+  <div class="project" *ngFor="let project of projectList">
+    <h3>{{project.name}}</h3>
+    <p>{{project.summary}}</p>
+    <div class="it">
+      <div class="tech stack">
+        <p>TECH STACK: {{project.tech_stack}}</p>
+      </div>
+      <div class="github link">
+        <a href="{{project.link}}">Github Project Link</a>
+      </div>
+    </div>
+  </div>
+</div>
+
 <footer>
 
 </footer>
