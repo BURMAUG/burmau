@@ -1,12 +1,29 @@
-<div >
-  <nav>
+<!--<div >-->
+<!--  <nav>-->
+<!--    <ul class="nav-links">-->
+<!--      <li><a routerLink="/">Burmau</a> </li>-->
+<!--      <li><a routerLink="/projects">Projects</a> </li>-->
+<!--      <li><a routerLink="/research">Research</a></li>-->
+<!--      <li><a routerLink="/resume">Resume</a></li>-->
+<!--    </ul>-->
+<!--  </nav>-->
+
+<!--</div>-->
+<div class="navbar">
+  <div class="burger" (click)="toggleNav()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <nav [ngClass]="{ 'active': navOpen }">
     <ul class="nav-links">
-      <li><a routerLink="/">Burmau</a> </li>
-      <li><a routerLink="/projects">Projects</a> </li>
+      <li><a routerLink="/">Burmau</a></li>
+      <li><a routerLink="/projects">Projects</a></li>
       <li><a routerLink="/research">Research</a></li>
       <li><a routerLink="/resume">Resume</a></li>
     </ul>
   </nav>
-
 </div>
+
 <router-outlet></router-outlet>

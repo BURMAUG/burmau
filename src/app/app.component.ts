@@ -8,5 +8,9 @@ import {Project} from "./component/projects/Project";
 })
 export class AppComponent {
   title: string = 'portfolio';
+  navOpen = false;
 
+  toggleNav() {
+    this.navOpen = !this.navOpen;
+  }
 }
