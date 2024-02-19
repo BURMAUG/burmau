@@ -1,17 +1,20 @@
 span a{
   text-decoration: none;
 }
+
 main{
   font-family: "Lucida Console", monospace;
   color: whitesmoke;
 }
-.box{
-  position: absolute;
-  /*background-color: gray;*/
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-}
+
+/*.box{*/
+/*  position: absolute;*/
+/*  !*background-color: gray;*!*/
+/*  top: 50%;*/
+/*  left: 50%;*/
+/*  transform: translate(-50%,-50%);*/
+/*}*/
+
 @media screen and (max-width: 768px){
   span a{
     text-decoration: none;
@@ -21,10 +24,7 @@ main{
     color: whitesmoke;
   }
   .box{
-    position: absolute;
-    /*background-color: gray;*/
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    margin-top: 50px;
+    padding: 20px 20px;
   }
 }
