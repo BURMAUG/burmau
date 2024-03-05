@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { NgxPaginationModule} from "ngx-pagination";
 
 import {AppRoutingModule, routes} from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -25,6 +26,7 @@ import { ResumeComponent } from './component/resume/resume.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    NgxPaginationModule,
     MatCardModule,
     MatDividerModule,
     MatListModule,
